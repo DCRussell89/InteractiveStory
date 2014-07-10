@@ -1,0 +1,8 @@
+extend layout
+block content
+    .jumbotron
+        h1 Twitter Story - Phase 1
+        p.The username: #{username} couldn't not be found or is invalid, please try again.
+        form(name="twitterName", action="", method="post")
+            input.userText(type="text", name="username", placeholder="Please Enter Twitter Username")
+            input.btn.btn-large.btn-success(type="submit", value="Run")

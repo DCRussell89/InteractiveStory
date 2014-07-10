@@ -1,0 +1,19 @@
+{
+  "name": "Twitter-Story",
+  "version": "0.0.1",
+  "description": "An App using a person's twitter profile to generate a story starter or first act",
+  "main": "TwitterStory.js",
+  "author": "Darren Russell <darren@unassembled.com.au>",
+  "repository": "",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14",
+    "natural": "~0.1.27",
+    "ntwitter": "~0.5.0",
+    "twit": "~1.1.15",
+    "jade": "*",
+    "stylus": "*",
+    "nib": "*"
+  }
+}

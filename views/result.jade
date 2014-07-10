@@ -1,0 +1,21 @@
+extend layout
+block content
+    .jumbotron
+        .row-fluid.marketing
+            h1 Twitter Story - Phase 1 Result
+        .row-fluid.marketing
+            .span6
+                p Hello <strong> #{name} </strong>, your details are as follows:
+                ul
+                    li <strong>Username:</strong> #{username}
+                    li <strong>Location:</strong> #{location}
+                    li <strong>Account created on:</strong> #{created}
+                    li <strong>#{followers}</strong> people following you
+                    li You are following <strong>#{following}</strong> people
+            .span6
+                |<strong>Nouns</strong>
+                p #{nouns}
+                |<strong>Verbs</strong>
+                p #{verbs}
+                |<strong>Adjectives</strong>
+                p #{adjectives}
